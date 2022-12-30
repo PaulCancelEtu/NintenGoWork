@@ -1,0 +1,134 @@
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: aliased;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    background-image: url("../img/switch.webp");
+    background-size: 100%;
+}
+
+nav ul{
+    background-color: #e60012;
+}
+footer ul{
+    background-color: #e60012;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 40px;
+}
+
+header nav {
+    text-align: right;
+    background: #efefef;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 1em;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1em;
+}
+#logo{
+    display: flex;
+    justify-content: left;
+}
+
+#titre{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 200%;
+
+}
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li ul {
+    display: none;
+}
+
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(214, 214, 214);
+}
+
+a,
+a:hover {
+    -o-transition: color 0.25s ease-in;
+    -webkit-transition: color 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+}
+
+main .bouton{
+    display: flex;
+    background-color: #e60012;
+    border-style: groove;
+    color: white;
+    /*padding: 30px 50px;*/
+    width: 13em;
+    height: 3em;
+    text-align: center;
+    margin-top: 3em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+main .bouton:hover{
+    background-color: #9e000d;
+}
+main ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer ul li{
+    display: inline;
+    bottom: 0;
+    margin-left: 1em;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#content-wrap {
+    padding-bottom: 2.5rem;
+  }
+  
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+

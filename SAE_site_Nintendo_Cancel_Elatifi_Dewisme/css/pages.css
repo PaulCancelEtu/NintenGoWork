@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: sans-serif;
+
+;
+}
+p {
+  margin-top: 0px;
+}
+ 
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+ 
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+ 
+input:focus {
+  background: #eaeaea;
+}
+ 
+input, textarea {
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+select {
+  width: 254px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+}
+
+input {
+    margin: .4rem;
+	}
+.caca{
+    background-color: #d70022;
+    padding: 150px;
+    color:#eaeaea;
+    text-align:center;
+}
+
+
+*::selection{
+  color: white;
+  background: orange;
+}
+a.privacy-policy-link{
+	color:black;
+	
+}
+.wp-block-button__link {
+    color:#fff;
+    background-color: #d70022;;
+    border-radius:9999px;
+    box-shadow:none;
+    cursor:pointer;
+    display:inline-block;
+    font-size:1.125em;
+    padding:calc(.667em + 2px) calc(1.333em + 2px);
+    text-align:center;
+    text-decoration:none;
+    word-break:break-word;
+    box-sizing:border-box
+   }
+   .wp-block-button__link:active,
+   .wp-block-button__link:focus,
+   .wp-block-button__link:hover,
+   .wp-block-button__link:visited {
+    color:#fff;
+    height: 150%;
+   }
+   .wp-block-button__link.aligncenter {
+    text-align:center
+   }
+   .wp-block-button__link.alignright {
+    text-align:right
+   }
+   .wp-block-buttons>.wp-block-button.has-custom-width {
+    max-width:none
+   }
+   .wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link {
+    width:100%
+   }
+   .wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link {
+    font-size:inherit
+   }
+   .wp-block-buttons>.wp-block-button.wp-block-button__width-25 {
+    width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)
+   }
+   .wp-block-buttons>.wp-block-button.wp-block-button__width-50 {
+    width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)
+   }
+   .wp-block-buttons>.wp-block-button.wp-block-button__width-75 {
+    width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)
+   }
+   .wp-block-buttons>.wp-block-button.wp-block-button__width-100 {
+    width:100%;
+    flex-basis:100%
+   }
+   .wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25 {
+    width:25%
+   }
+   .wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50 {
+    width:50%
+   }
+   .wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75 {
+    width:75%
+   }
+   .wp-block-button.is-style-squared,
+   .wp-block-button__link.wp-block-button.is-style-squared {
+    border-radius:0
+   }
+   .wp-block-button.no-border-radius,
+   .wp-block-button__link.no-border-radius {
+    border-radius:0!important
+   }
+    
+    .contactez-nous {
+    width: 700px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+    }
+    
+    .contactez-nous > h1 {
+    font-weight: 500;
+    }
+    
+    .contactez-nous > p {
+    font-weight: 300;
+    }
+    
+    form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+    
+    form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+    
+    form div > input, form div > select, form div > textarea {
+    background: #FFD9D9;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    }
+    
+    form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+    }
+    
+    form div > select {
+    appearance: none;
+    background-size: 15px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    }
+    
+    form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+    text-align: center;
+    }
+    
+    form div > input::placeholder, form div > textarea::placeholder {
+    color: white;
+    }
+    
+    form div > select:invalid {
+    color: white;
+    }
+    
+    form div > select option {
+    background: white;
+    color: #303030;
+    }
+    
+    form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    
+    form button {
+    width: 450px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+    }
+    .message{
+        text-align: center;
+    }
+
+

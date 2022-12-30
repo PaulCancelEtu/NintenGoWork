@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link href="css/pages.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="caca"><h1>Conctatez nous</h1>
+    </header>
+   </div>
+    <h2>Contactez nous</h2>
+    <form action="#"><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em><p></p>
+    <fieldset>
+        <legend>Contact</legend>
+        <p><label for="nom">Nom <em>*</em></label><br>
+        <input id="nom" required="" type="text" autofocus="" placeholder="Olivier Serre"><br>
+        <label for="telephone">Portable</label><br>
+        <input id="telephone" pattern="06[0-9]{8}" type="tel" placeholder="06xxxxxxxx"><br>
+        <label for="adresse">Adresse</label><br>
+        <input id="adresse" type="text" placeholder="xx rue xxxxxxxxx"><br>
+        <label for="email">Email <em>*</em></label></p>
+        <p><input id="email" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com" required="" type="email" placeholder="prenom.nom@gmail.com"></p>
+        <label for="message" id="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+        </div>
+      </fieldset>
+    </form>
+
+    <!-- wp:buttons -->
+    <div class="wp-block-buttons"><!-- wp:button -->
+    <div class="wp-block-button"><a class="wp-block-button__link" href="http://frene07:8888/index.php/votre-reponse-a-bien-ete-prise-en-compte/">soummettre</a></div>
+   </div>
+    </body>
+</html>
