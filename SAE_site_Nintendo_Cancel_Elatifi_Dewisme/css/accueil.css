@@ -85,7 +85,7 @@ a:hover {
     transition: color 0.25s ease-in;
 }
 
-main .bouton{
+.bouton{
     display: flex;
     background-color: #e60012;
     border-style: groove;
@@ -100,7 +100,7 @@ main .bouton{
     font-size: 40px;
 }
 
-main .bouton:hover{
+.bouton:hover{
     background-color: #9e000d;
 }
 main ul{
@@ -126,9 +126,52 @@ footer ul li{
   }
   
 footer {
-    position: absolute;
-    bottom: 0;
+    text-align: left;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     height: 2.5rem;
   }
 
+.bouton_r{
+    display: flex;
+    background-color: #e60012;
+    border-style: groove;
+    color: white;
+    /*padding: 30px 50px;*/
+    width: 7em;
+    height: 3em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.bouton_r:hover{
+    background-color: #9e000d;
+}
+
+retour{
+    display: flex;
+    justify-content: center;
+}
+
+politique{
+    text-align: left;
+}
+
+politique h1{
+    font-weight: bold;
+    text-align: center;
+    margin-right: 40%;
+}
+politique h2{
+    font-weight: bold;
+    margin-right: 40%;
+}
+politique h6,h5,h4,h3{
+    margin-left: 10%;
+    margin-right: 40%;
+}

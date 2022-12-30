@@ -3,8 +3,7 @@ body{
     padding:0;
     text-align: center;
     font-family: sans-serif;
-
-;
+  background-image: none;
 }
 p {
   margin-top: 0px;
@@ -236,5 +235,6 @@ a.privacy-policy-link{
     .message{
         text-align: center;
     }
+    
 
 

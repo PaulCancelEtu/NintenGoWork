@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Covoiturage</title>
+    <link rel="stylesheet" href="css/accueil.css">
+    <link href="css/pages.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a id="logo" href="accueil.html"><img src="img/nintendo_logo.png" height="2%" width="8%"><img></a>
+                </li>
+                <li><a id="titre" href="#">Covoiturage</a></li>
+                <li><a href="velos.html">Vélos</a></li>
+                <li><a href="autremoyen.html">Autres moyen de transport</a></li>
+                <li><a href="contactez_nous.html">Contactez nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <h2>Covoiturage</h2>
+    <form action="#"><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em>
+        <p></p>
+        <fieldset>
+            <legend>Contact</legend>
+            <p><label for="nom">Nom <em>*</em></label><br>
+                <input id="nom" required="" type="text" autofocus="" placeholder="Olivier Serre"><br>
+                <label for="adresse">Ville</label><br>
+                <input id="adresse" type="text" placeholder="Paris"><br>
+                <label for="email">Email <em>*</em></label>
+                
+            </p>
+            <p><input id="email" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com" required="" type="email" placeholder="prenom.nom@gmail.com"></p>
+            <form action="#">
+                    
+                <p><label for="nom">Profil <em>*</em></label><br>
+                <select name="Emplacement" id="lang">
+                  <option value="javascript">Vous proposez un service</option>
+                  <option value="php">Vous recherchez un service</option>
+                </select>
+          </form>
+          <label for="telephone">Place disponible</label><br>
+                <input id="nbplace" pattern="[0-2]" type="tel" placeholder="0"><br>
+                <form action="#">
+                    <p><label for="nom">Destination <em>*</em></label><br>
+                    <select name="Destination" id="lang">
+                      <option value="desti">20 Av. André Prothin, 92400 Courbevoie, France</option>
+                      <option value="desti">11-1 Kamitoba Hokodatecho, Minami Ward, Kyoto, 601-8501, Japon</option>
+                      <option value="desti">Corée du Sud, 2길 16 Tongil-ro, KR 서울특별시 중구, Korea</option>
+                    </select>
+              </form>
+        </div>
+        <div class="wp-block-buttons">
+            <!-- wp:button -->
+            <div class="wp-block-button"><a class="wp-block-button__link" href="merci.html">soummettre</a></div>
+        </div>
+        </fieldset>
+    </form>
+
+    <!-- wp:buttons -->
+    <retour>
+        <input class="bouton_r" type="button" onclick="window.location.href = 'accueil.html' "value="accueil">
+    </retour>
+    <footer>
+        <ul>
+            <li><a href="#">NintenGoWork</a></li>
+            <li><a href="politique.html">Politique de confidentialité</a></li>
+            <li><a href="contactez_nous.html">Contactez nous</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

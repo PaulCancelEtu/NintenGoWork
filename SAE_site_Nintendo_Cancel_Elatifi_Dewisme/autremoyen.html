@@ -14,17 +14,16 @@
                 <li>
                     <a id="logo" href="accueil.html"><img src="img/nintendo_logo.png" height="2%" width="8%"><img></a>
                 </li>
-                <li><a id="titre" href="#">Vélos</a></li>
+                <li><a id="titre" href="#">Autres moyen de transport</a></li>
                 <li><a href="covoiturage.html">Covoiturage</a></li>
-                <li><a href="autremoyen.html">Autres moyen de transport</a></li>
+                <li><a href="velos.html">Vélos</a></li>
                 <li><a href="contactez_nous.html">Contactez nous</a></li>
             </ul>
         </nav>
     </header>
     </div>
-    <h2>Vélos</h2>
+    <h2>Autres moyen de transport</h2>
     <form action="#"><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em>
-        <p></p>
         <fieldset>
             <legend>Contact</legend>
             <p><label for="nom">Nom <em>*</em></label><br>
@@ -37,8 +36,16 @@
             <p><input id="email" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com" required="" type="email" placeholder="prenom.nom@gmail.com"></p>
             </div>
             <form action="#">
-                <p><label for="nom">Emplacement des vélos <em>*</em></label><br>
-                <select name="Emplacement" id="lang">
+                <p><label for="nom">Moyen de Transport <em>*</em></label><br>
+                    <select name="Destination" id="lang">
+              <option value="desti">Rollers </option>
+              <option value="desti">Trotinette</option>
+              <option value="desti">Skateboard</option>
+            </select>
+            </form>
+            <form action="#">
+                <p><label for="nom">Emplacement dumoyen de transport <em>*</em></label><br>
+                    <select name="Emplacement" id="lang">
                   <option value="empla">2 Rue Cambon, 75001 Paris</option>
                   <option value="empla">1 Pl. Edouard Renard, 75012 Paris</option>
                   <option value="empla">12 Av. Jean Moulin, 75014 Paris</option>
@@ -54,25 +61,21 @@
                   <option value="empla">12 Seolleung-ro 152-gil, Cheongdam-dong, Gangnam-gu, Seoul, Goyang</option>
                   <option value="empla">Corée du Sud, Seoul, Seongdong-gu, 성수이로 7길 27, 409호, Goyang</option>
                 </select>
-          </form>
-          <form action="#">
-            <p><label for="nom">Destination <em>*</em></label><br>
-            <select name="Destination" id="lang">
+            </form>
+            <form action="#">
+                <p><label for="nom">Destination <em>*</em></label><br>
+                    <select name="Destination" id="lang">
               <option value="desti">20 Av. André Prothin, 92400 Courbevoie, France</option>
               <option value="desti">11-1 Kamitoba Hokodatecho, Minami Ward, Kyoto, 601-8501, Japan</option>
               <option value="desti">Corée du Sud, 2길 16 Tongil-ro, KR 서울특별시 중구, Korea</option>
             </select>
-      </form>
-      <div class="wp-block-buttons">
-        <!-- wp:button -->
-        <div class="wp-block-button"><a class="wp-block-button__link" href="merci.html">soummettre</a></div>
-    </div>
+            </form>
+            <div class="wp-block-buttons">
+                <!-- wp:button -->
+                <div class="wp-block-button"><a class="wp-block-button__link" href="merci.html">soummettre</a></div>
+            </div>
         </fieldset>
     </form>
-
-
-    <!-- wp:buttons -->
-
     <retour>
         <input class="bouton_r" type="button" onclick="window.location.href = 'accueil.html' "value="accueil">
     </retour>
@@ -83,6 +86,7 @@
             <li><a href="contactez_nous.html">Contactez nous</a></li>
         </ul>
     </footer>
+
 </body>
 
 </html>
